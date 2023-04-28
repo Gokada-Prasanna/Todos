@@ -1,0 +1,97 @@
+.App{
+    background-image:url("C:\Users\sh\Desktop\ReactJs\React_Projects\todos_app\public\image\AdobeStock_164991966.jpeg");
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size:cover;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding-top:5%;
+}
+
+.heading{
+    font-family:Roboto;
+    font-size:200%;;
+    text-align:center;
+}
+
+@media screen and (max-width:576px){
+    .heading{
+        font-size:180%;
+    }
+}
+.input-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:70%;
+}
+
+@media screen and (max-width:576px){
+    .input-container{
+        flex-direction:column;
+    }
+}
+
+.title-input-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:0px;
+    margin:0px;
+}
+
+.title{
+    font-size:100%;
+    font-family:Roboto;
+}
+
+
+.task{
+    font-size:100%;
+    font-family:Roboto;
+}
+
+.task-input-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:0px;
+}
+
+.input{
+    margin:0 10px;
+    border-radius:5px;
+    outline:none;
+    border:2px solid grey;
+}
+
+input:focus{
+    border:2px solid black;
+}
+
+.todo-list-container{
+    height:auto;
+    list-style-type:none;
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+@media screen and (max-width:576px){
+    .todo-list-container{
+        flex-direction:column;
+        flex-wrap:nowrap;
+    }
+}
+
+
+
+
